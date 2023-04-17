@@ -8,4 +8,4 @@ for (let i = 0; i < timesToRepeat; i++) {
     
 }
 
-console.log(word)
+console.log(total)
