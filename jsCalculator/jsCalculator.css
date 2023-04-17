@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.calculator > .row-1, .row-2, .row-3, .row-4, .row-5, .row-6  {
+ 
+    display: flex;
+}
+
+.calculator > .row-1 {
+    background-color: black;
+}
+
+
+.big-button {
+    flex-grow: 2;
+}
+
+.orange-button {
+    background-color: orange;
+    border-right: none;
+    color: white;
+}
+
+.row-1 {
+    color:white;
+    justify-content: right;
+    
+}
+
+
+
+.calculator{
+  
+    display: flex;
+    display: grid;
+   
+    justify-content: center;
+   
+
+}
+
+button {
+    border-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    size: 100px;
+}
+
+button:hover {
+    background-color: rgb(226, 218, 218);
+}
+
+
+
+
