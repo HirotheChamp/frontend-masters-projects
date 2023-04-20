@@ -16,3 +16,42 @@ h1 {
     text-align: center;
     color: blue;
 }
+
+.info-bar {
+    justify-content: center;
+}
+
+.spiral {
+    font-size: 40px;
+    animation: spin 1.5s linear infinite;
+  }
+
+
+  .invalid {
+    animation: flash 1s
+  }
+
+  /* flashes red border and then fades back to gray */
+@keyframes flash {
+    5% {
+      border-color: crimson;
+    }
+  
+    100% {
+      border-color: #ccc;
+    }
+  }
+
+  /* rotates clockwise indefinitely */
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+.hidden {
+    visibility: hidden;
+
+    /* The object takes up space but does not show up until prompted */
+}
