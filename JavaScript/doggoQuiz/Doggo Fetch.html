@@ -101,15 +101,11 @@
         while (choices.length < n ) {
             let possibility = getRandomElement(possibleChoices);
             if (!choices.includes(possibility)) {
-                choices.push();
+                choices.push(possibility);
             }
             
         } 
-        if (possibleChoices === correctAnswer) {
-            return correctAnswer;
-        } else {
-return false;
-        }
+     
 
         return shuffleArray(choices);
         // Use a while loop and the getRandomElement() function
